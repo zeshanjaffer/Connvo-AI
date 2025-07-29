@@ -67,3 +67,5 @@ const Modes = () => {
     </section>
   );
 };
+
+export default Modes;

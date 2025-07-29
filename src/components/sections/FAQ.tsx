@@ -15,8 +15,8 @@ const FAQ = () => {
           className="text-center mb-16"
         >
           <h2 className="text-5xl font-bold mb-6 text-gradient">Frequently Asked Questions</h2>
-          <p className="text-xl text-[#00809D]/80 max-w-2xl mx-auto">
-            Everything you need to know about Connvo's AI phone training platform
+          <p className="text-lg text-gray-600 mb-12">
+            Got questions? We&apos;ve got answers! Here are the most common questions about Connvo.
           </p>
         </motion.div>
         

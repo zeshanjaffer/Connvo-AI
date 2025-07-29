@@ -1,6 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-import { FiStar, FiMessageSquare, FiArrowRight, FiHeart, FiZap } from 'react-icons/fi';
+import { FiStar, FiMessageSquare, FiArrowRight, FiHeart } from 'react-icons/fi';
 
 const TESTIMONIALS = [
   {
@@ -168,7 +168,7 @@ const Testimonials = () => {
                 >
                   <FiMessageSquare className="text-[#00809D]/20 absolute -top-2 -left-2" size={40} />
                   <p className="text-gray-700 leading-relaxed text-lg relative z-10 italic">
-                    "{testimonial.text}"
+                    &ldquo;{testimonial.text}&rdquo;
                   </p>
                 </motion.div>
                 

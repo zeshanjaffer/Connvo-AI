@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button";
+import Button from "../../components/ui/Button";
 
 interface PricingTierProps {
   name: string;
@@ -39,8 +39,7 @@ const PricingTier: React.FC<PricingTierProps> = ({
         variant={isContact ? "outline" : highlighted ? "primary" : "secondary"}
         size="md"
         className="w-full mt-auto"
-        as={isContact ? "a" : "button"}
-        href={isContact ? "/contact" : undefined}
+        href={isContact ? "/contact" : "#"}
       >
         {cta}
       </Button>

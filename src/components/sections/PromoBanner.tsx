@@ -65,9 +65,8 @@ const PromoBanner = () => {
                </span>
              </h2>
             
-            <p className="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
-              Join thousands of professionals who've already transformed their communication skills. 
-              <span className="font-bold text-[#00809D]"> Offer ends soon!</span>
+            <p className="text-lg text-white/90 mb-6">
+              Don&apos;t let phone anxiety hold you back. Start practicing today!
             </p>
             
             {/* Countdown Timer */}

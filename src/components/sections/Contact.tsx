@@ -15,9 +15,9 @@ const Contact = () => {
           className="text-center mb-16"
         >
           <h2 className="text-5xl font-bold mb-6 text-[#00809D]">Get In Touch</h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Ready to transform your communication skills? Contact us today!
-          </p>
+          <p className="text-lg text-gray-600 mb-8">
+                    Ready to transform your communication skills? Let&apos;s connect and discuss how Connvo can help you succeed.
+                  </p>
         </motion.div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -126,7 +126,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-[#00809D] mb-1">Email Us</h4>
                   <p className="text-gray-600">hello@connvo.app</p>
-                  <p className="text-sm text-gray-500">We'll respond within 24 hours</p>
+                  <p className="text-sm text-gray-500">We&apos;ll respond within 24 hours</p>
                 </div>
               </div>
               

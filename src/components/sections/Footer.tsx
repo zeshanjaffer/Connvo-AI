@@ -1,4 +1,4 @@
-import { FiTwitter, FiGithub, FiMail, FiLinkedin, FiInstagram } from 'react-icons/fi';
+import { FiMail, FiTwitter, FiLinkedin, FiInstagram } from 'react-icons/fi';
 
 const Footer = () => {
   return (

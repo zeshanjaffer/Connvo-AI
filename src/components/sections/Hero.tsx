@@ -229,7 +229,7 @@ const Hero = () => {
                     transition={{ delay: 1.2 }}
                     className="bg-white/10 p-3 sm:p-4 rounded-lg max-w-[85%] border border-white/10"
                   >
-                    <p className="text-[#FCF8DD] text-sm sm:text-base">Hello! I'm your AI practice partner. What would you like to work on today?</p>
+                    <p className="text-[#FCF8DD] text-sm sm:text-base">Hello! I&apos;m your AI practice partner. What would you like to work on today?</p>
                   </motion.div>
                   <motion.div 
                     initial={{ opacity: 0, x: 20 }}
@@ -237,7 +237,7 @@ const Hero = () => {
                     transition={{ delay: 1.4 }}
                     className="bg-gradient-to-r from-[#FFD700] to-[#D3AF37] p-3 sm:p-4 rounded-lg max-w-[85%] ml-auto"
                   >
-                    <p className="text-[#00809D] font-medium text-sm sm:text-base">I'd like to practice cold calling for sales.</p>
+                    <p className="text-[#00809D] font-medium text-sm sm:text-base">I&apos;d like to practice cold calling for sales.</p>
                   </motion.div>
                   <motion.div 
                     initial={{ opacity: 0, x: -20 }}
@@ -245,7 +245,7 @@ const Hero = () => {
                     transition={{ delay: 1.6 }}
                     className="bg-white/10 p-3 sm:p-4 rounded-lg max-w-[85%] border border-white/10"
                   >
-                    <p className="text-[#FCF8DD] text-sm sm:text-base">Perfect! I'll simulate a sales prospect. Ready to start?</p>
+                    <p className="text-[#FCF8DD] text-sm sm:text-base">Perfect! I&apos;ll simulate a sales prospect. Ready to start?</p>
                   </motion.div>
                 </div>
 

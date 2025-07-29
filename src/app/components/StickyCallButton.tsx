@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "../../components/ui/Button";
 
 const StickyCallButton = () => {
   return (
@@ -6,7 +6,6 @@ const StickyCallButton = () => {
       <Button
         variant="primary"
         size="lg"
-        as="a"
         href="tel:+1234567890"
         className="shadow-lg"
       >

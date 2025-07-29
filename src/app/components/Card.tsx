@@ -1,6 +1,12 @@
 import { motion } from 'framer-motion';
+import { ReactNode } from 'react';
 
-const Card = ({ children, highlight = false }) => {
+interface CardProps {
+  children: ReactNode;
+  highlight?: boolean;
+}
+
+const Card = ({ children, highlight = false }: CardProps) => {
   return (
     <motion.div
       className={`rounded-2xl p-6 ${highlight ? 'border-2 border-blue-400 shadow-xl' : 'border border-gray-200'}`}

@@ -1,6 +1,4 @@
 'use client';
-
-import { FiPhoneCall } from 'react-icons/fi';
 import { useEffect, useState } from 'react';
 import Button from './Button';
 

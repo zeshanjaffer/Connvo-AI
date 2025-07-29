@@ -1,6 +1,5 @@
 'use client';
 import { PRICING_TIERS } from '@/constants';
-import PricingTier from '../ui/PricingTier';
 import { motion } from 'framer-motion';
 import Button from '../ui/Button';
 import { FiStar, FiCheck, FiZap, FiAward } from 'react-icons/fi';
