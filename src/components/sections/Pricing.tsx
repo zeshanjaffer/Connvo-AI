@@ -10,31 +10,6 @@ const Pricing = () => {
     <section id="pricing" className="relative py-16 sm:py-20 md:py-24 bg-gradient-to-br from-white via-[#FCF8DD]/20 to-white text-[#00809D] overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        {/* Floating coins/currency symbols */}
-        {[...Array(8)].map((_, i) => (
-          <motion.div
-            key={i}
-            animate={{ 
-              y: [0, -60, 0],
-              rotate: [0, 360],
-              scale: [1, 1.3, 1]
-            }}
-            transition={{ 
-              duration: 6 + Math.random() * 4, 
-              repeat: Infinity, 
-              delay: Math.random() * 3,
-              ease: "easeInOut"
-            }}
-            className="absolute text-[#FFD700]/20 font-bold"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              fontSize: `${12 + Math.random() * 16}px`
-            }}
-          >
-            $
-          </motion.div>
-        ))}
         
         {/* Geometric shapes */}
         <motion.div

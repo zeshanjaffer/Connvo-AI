@@ -47,30 +47,7 @@ const Features = () => {
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Floating stars */}
-        {[...Array(12)].map((_, i) => (
-          <motion.div
-            key={i}
-            animate={{ 
-              y: [0, -50, 0],
-              rotate: [0, 360],
-              scale: [1, 1.2, 1]
-            }}
-            transition={{ 
-              duration: 4 + Math.random() * 3, 
-              repeat: Infinity, 
-              delay: Math.random() * 2,
-              ease: "easeInOut"
-            }}
-            className="absolute text-[#FFD700]/30"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              fontSize: `${6 + Math.random() * 10}px`
-            }}
-          >
-            <FiStar />
-          </motion.div>
-        ))}
+        {/* Removed to prevent hydration errors */}
         
         {/* Geometric shapes */}
         <motion.div

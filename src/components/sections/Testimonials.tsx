@@ -37,31 +37,6 @@ const Testimonials = () => {
     <section className="relative py-24 bg-gradient-to-br from-[#FCF8DD] via-white to-[#FCF8DD]/50 overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        {/* Floating hearts */}
-        {[...Array(15)].map((_, i) => (
-          <motion.div
-            key={i}
-            animate={{ 
-              y: [0, -80, 0],
-              rotate: [0, 360],
-              scale: [1, 1.4, 1]
-            }}
-            transition={{ 
-              duration: 5 + Math.random() * 3, 
-              repeat: Infinity, 
-              delay: Math.random() * 2,
-              ease: "easeInOut"
-            }}
-            className="absolute text-[#FFD700]/20"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              fontSize: `${12 + Math.random() * 16}px`
-            }}
-          >
-            <FiHeart />
-          </motion.div>
-        ))}
         
         {/* Geometric shapes */}
         <motion.div

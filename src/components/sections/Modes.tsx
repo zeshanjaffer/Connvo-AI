@@ -56,28 +56,7 @@ const Modes = () => {
         />
         
         {/* Particle effect */}
-        <div className="absolute inset-0 opacity-30">
-          {[...Array(15)].map((_, i) => (
-            <motion.div
-              key={i}
-              animate={{ 
-                y: [0, -100, 0],
-                opacity: [0, 1, 0]
-              }}
-              transition={{ 
-                duration: 3 + Math.random() * 2, 
-                repeat: Infinity, 
-                delay: Math.random() * 2,
-                ease: "easeInOut"
-              }}
-              className="absolute w-1 h-1 bg-[#FFD700] rounded-full"
-              style={{
-                left: `${Math.random() * 100}%`,
-                top: `${Math.random() * 100}%`
-              }}
-            />
-          ))}
-        </div>
+        {/* Removed to prevent hydration errors */}
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
